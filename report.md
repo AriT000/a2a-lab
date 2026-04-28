@@ -1,7 +1,7 @@
 # Part 3
 
 - Why does the request use a client-generated id rather than a server-generated one?
-What problem does this solve in distributed systems?
+What problem does this solve in distributed systems.
 
 A: Using a client-generated id rather than a server-generated one is so the request can be identified. If it was a server-generated one, there might be a case where the client doesn't receive a response and so the client can just retry with the same request id, instead of creating a new one.
 
