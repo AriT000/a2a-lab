@@ -28,7 +28,6 @@
 - run `./cloud/deploy_cloud_run.sh`
 - service url: https://echo-a2a-agent-741297514794.us-central1.run.app
 - run `python -m client.demo`
-- 
 
 # 7.
 - run `gsutil mb -l us-central1 gs://pe4680-a2a-staging`
